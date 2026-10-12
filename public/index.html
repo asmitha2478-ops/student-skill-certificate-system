@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skill and Certificate Registry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="side" aria-label="Main">
+      <a class="brand" href="#/dashboard">
+        <span class="brand-mark" aria-hidden="true">SC</span>
+        <span>Skill and Certificate Registry</span>
+      </a>
+      <ul id="nav"></ul>
+    </nav>
+    <main id="main" tabindex="-1">
+      <p class="muted">Loading…</p>
+    </main>
+  </div>
+
+  <dialog id="dlg" aria-labelledby="dlgTitle">
+    <form id="form" autocomplete="off"></form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
